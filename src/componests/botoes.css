@@ -1,0 +1,49 @@
+:root {
+    --bg-button:#b3aeae;
+    --border-button:solid 1px #888;
+}
+
+.btn {
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    border:none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+}
+.btn:active {
+    background-color: #ccc;
+}
+.btn-triple {
+    grid-column: span 3;
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    border:none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+}
+
+.btn-double{
+    grid-column: span 2;
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    border:none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+}
+
+.btn-operation {
+    background-color: #fa8231;
+    color:white;
+    font-size: 1.4em;
+    border:none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+}
+
+.btn-operation:active {
+    background-color: #fa8231cc;
+}
